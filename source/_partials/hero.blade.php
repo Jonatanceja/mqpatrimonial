@@ -19,7 +19,7 @@
             <!-- Botón de activar sonido -->
             <button 
                 id="unmuteBtn"
-                class="absolute top-2 md:top-5 right-2 md:right-5 bg-amber-500 text-white px-4 py-2 rounded-full font-bold shadow-lg hover:bg-amber-600 transition duration-300 text-xs md:text-base cursor-pointer z-20"
+                class="absolute top-2 right-2 bg-amber-500 text-white px-4 py-2 rounded-full font-bold shadow-lg hover:bg-amber-600 transition duration-300 text-xs md:text-base cursor-pointer z-20"
                 @click="toggleSound()"
             >
                 🔊 Activar sonido
