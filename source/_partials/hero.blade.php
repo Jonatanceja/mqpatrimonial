@@ -1,7 +1,7 @@
 <section class="max-w-6xl mx-auto text-center grid grid-cols-1 md:grid-cols-3 shadow rounded-xl overflow-hidden" id="inicio">
     <div class="md:col-span-2 bg-amber-50/60 p-5 md:p-10 backdrop-blur-sm">
-        <div class="text-xl font-bold leading-relaxed">Clase Gratuita en línea</div>
-        <div class="text-sm leading-relaxed text-gray-600 tracking-wider">
+        <div class="text-xl font-bold md:leading-relaxed">Clase Gratuita en línea</div>
+        <div class="text-xs md:text-sm leading-relaxed text-gray-600 tracking-wider">
             Miércoles <strong class="text-gray-800">01 de Octubre | 7:00 pm</strong> (CDMX)
         </div>
         <h1 class="leading-relaxed text-2xl md:text-4xl mx-auto font-extrabold mb-3">Estrategias inteligentes para tu pensión</h1>
@@ -10,6 +10,7 @@
                 id="heroVideo" 
                 class="rounded w-full" 
                 src="/assets/images/video-mq.mp4" 
+                poster="/assets/images/portada-video.jpg"
                 autoplay 
                 loop 
                 muted
@@ -18,7 +19,7 @@
             <!-- Botón de activar sonido -->
             <button 
                 id="unmuteBtn"
-                class="absolute top-5 right-5 bg-amber-500 text-white px-4 py-2 rounded-full font-bold shadow-lg hover:bg-amber-600 transition duration-300"
+                class="absolute top-2 md:top-5 right-2 md:right-5 bg-amber-500 text-white px-4 py-2 rounded-full font-bold shadow-lg hover:bg-amber-600 transition duration-300 text-xs md:text-base cursor-pointer z-20"
                 @click="toggleSound()"
             >
                 🔊 Activar sonido
