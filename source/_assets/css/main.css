@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+[x-cloak] { display: none !important; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Tinos", serif;
+}
+
+
+.simply-section {
+  @apply flex flex-col items-center bg-amber-50/50 rounded-lg px-4 py-3 shadow-md justify-center text-center md:min-h-44 backdrop-blur-sm backdrop-filter;
+}
+
+.simply-amount {
+  @apply text-4xl md:text-5xl font-bold text-amber-900/70 text-center;
+}
+
+.simply-word {
+  @apply text-sm md:text-base uppercase tracking-wide text-amber-900/50 block text-center;
+}
+
+.mc-field-group {
+  @apply py-2;
+}

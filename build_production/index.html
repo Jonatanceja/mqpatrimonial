@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Canonical -->
+        <link rel="canonical" href="/">
+
+        <!-- SEO -->
+        <meta name="description" content="Cd Clase Gratuita en línea.">
+        <title>MQ Patrimonial IMSS</title>
+
+        <!-- Favicon con emoji 🎓 -->
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+
+
+        <!-- Open Graph -->
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="es_ES">
+        <meta property="og:title" content="MQ Patrimonial IMSS">
+        <meta property="og:description" content="Cd Clase Gratuita en línea.">
+        <meta property="og:url" content="/">
+        <meta property="og:site_name" content="MQ Patrimonial">
+        <meta property="og:image" content="/assets/images/og-image.jpg">
+        <meta property="og:image:alt" content="MQ Patrimonial IMSS">
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="MQ Patrimonial IMSS">
+        <meta name="twitter:description" content="Cd Clase Gratuita en línea.">
+        <meta name="twitter:image" content="/assets/images/og-image.jpg">
+        <meta name="twitter:image:alt" content="MQ Patrimonial IMSS">
+
+                <link rel="stylesheet" href="/assets/build/assets/main-D46Pyfuj.css">
+        <script defer type="module" src="/assets/build/assets/main-VUJQSGz8.js"></script>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!-- Icons CDN (lazy load) -->
+        <link rel="preload" href="https://cdn.lineicons.com/5.0/lineicons.css" as="style" onload="this.rel='stylesheet'">
+        <noscript>
+            <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css">
+        </noscript>
+    </head>
+    <body 
+        class="text-gray-800 font-sans antialiased bg-[url(/assets/images/background.webp)] bg-cover bg-fixed p-5 md:p-8"
+        x-data="{ openModal: false }"
+    >
+        <section class="max-w-6xl mx-auto text-center grid grid-cols-1 md:grid-cols-3 shadow rounded-xl overflow-hidden" id="inicio">
+    <div class="md:col-span-2 bg-amber-50/60 p-5 md:p-10 backdrop-blur-sm">
+        <div class="text-xl font-bold leading-relaxed">Clase Gratuita en línea</div>
+        <div class="text-sm leading-relaxed text-gray-600 tracking-wider">
+            Miércoles <strong class="text-gray-800">01 de Octubre | 7:00 pm</strong> (CDMX)
+        </div>
+        <h1 class="leading-relaxed text-2xl md:text-4xl mx-auto font-extrabold mb-3">Estrategias inteligentes para tu pensión</h1>
+        <div class="relative mt-5">
+            <video 
+                id="heroVideo" 
+                class="rounded w-full" 
+                src="/assets/images/video-mq.mp4" 
+                autoplay 
+                loop 
+                muted
+            ></video>
+
+            <!-- Botón de activar sonido -->
+            <button 
+                id="unmuteBtn"
+                class="absolute top-5 right-5 bg-amber-500 text-white px-4 py-2 rounded-full font-bold shadow-lg hover:bg-amber-600 transition duration-300"
+                @click="toggleSound()"
+            >
+                🔊 Activar sonido
+            </button>
+        </div>
+        <p class="text-gray-600 text-center tracking-wide leading-relaxed my-5">Toma el control de tu pensión. Aprende estrategias inteligentes para maximizar tu pensión del IMSS y asegura el bienestar de tu futuro.</p>
+        <div class="py-3 flex items-center justify-center">
+    <button 
+        @click="openModal = true"
+        class="bg-gray-800 hover:bg-amber-800 text-white py-3 px-6 rounded-full font-semibold border-2 border-gray-500 hover:border-amber-700 transition duration-300 inline-block text-center transform hover:scale-105 cursor-pointer">
+        Reserva tu lugar ahora
+    </button>
+</div>
+    </div>
+    <div class="bg-amber-400/60 p-5 md:p-8 backdrop-blur-sm flex items-center justify-center">
+        <div class="space-y-3">
+            <img src="/assets/images/principal.jpg" alt="Maribel" class="mx-auto w-32 h-32 rounded-full border-4 border-amber-50 shadow-md transform hover:scale-105 transition duration-300">
+            <div>
+                <h2 class="text-xl font-bold text-amber-950">Soy Maribel Quezada</h2>
+                <sub class="font-bold text-sm text-amber-900">Abogada, asesora y mentora especializada en retiro y pensiones del IMSS, con más de 15 años de experiencia. </sub>
+            </div>
+            <p class=" text-gray-700 tracking-wider text-base/6">
+                Fundadora de <strong>MQPatrimonial</strong> y creadora del podcast Blindaje Patrimonial.
+                Mi labor se centra en guiar a las personas en el cálculo y trámite de su pensión, aprovechando al máximo herramientas como la <strong>Modalidad 10 y Modalidad 40</strong>, la correcta gestión del Afore y las estrategias de retiro, con el objetivo de garantizar su tranquilidad financiera.
+                Mi propósito es acompañarte para que tome decisiones estratégicas en el momento más importante: <strong>tu retiro</strong>.
+            </p>
+        </div>
+    </div>
+</section>    
+<section class="max-w-6xl mx-auto py-5 md:py-10 space-y-5 md:space-y-10 text-center" id="counter" data-aos="fade-in" data-aos-duration="1000">
+    <h3 class="text-2xl md:text-4xl font-bold max-w-4xl mx-auto bg-amber-50/50 backdrop-blur-sm rounded-xl px-5 py-3 shadow-md">La clase comienza en:</h3>
+    <div class="my-super-countdown grid grid-cols-2 md:grid-cols-4 gap-5 items-center justify-center max-w-4xl mx-auto"></div>
+</section>
+<section class="bg-amber-50/50 backdrop-blur-sm rounded-xl p-5 md:p-10 shadow-md max-w-4xl mx-auto space-y-3 md:space-y-5" data-aos="fade-in" data-aos-duration="1000">
+    <h3 class="text-2xl md:text-4xl font-bold text-center">Temas de la clase</h3>
+    <div>
+        <ol class="list-decimal list-outside marker:text-amber-500 marker:text-xl marker:font-bold space-y-2 ml-3">
+                            <li class="md:text-xl tracking-wide border-b border-b-amber-800/20 py-5 transition duration-300 transform hover:translate-x-2 font-bold last:border-0 text-gray-500 hover:text-gray-800">Te voy a explicar cómo funciona el sistema de Pensiones en México.</li>
+                            <li class="md:text-xl tracking-wide border-b border-b-amber-800/20 py-5 transition duration-300 transform hover:translate-x-2 font-bold last:border-0 text-gray-500 hover:text-gray-800">Te compartiré, estrategias, prácticas y efectivas para tu pensión</li>
+                            <li class="md:text-xl tracking-wide border-b border-b-amber-800/20 py-5 transition duration-300 transform hover:translate-x-2 font-bold last:border-0 text-gray-500 hover:text-gray-800">Aprenderás todo sobre modalidad 10:40, como aprovecharlas al máximo y cuál es la mejor estrategia para ti.</li>
+                            <li class="md:text-xl tracking-wide border-b border-b-amber-800/20 py-5 transition duration-300 transform hover:translate-x-2 font-bold last:border-0 text-gray-500 hover:text-gray-800">Además, hablaremos de la portabilidad ISSSTE a IMSS y mucho más.</li>
+                    </ol>
+    </div>
+    <div class="py-3 flex items-center justify-center">
+    <button 
+        @click="openModal = true"
+        class="bg-gray-800 hover:bg-amber-800 text-white py-3 px-6 rounded-full font-semibold border-2 border-gray-500 hover:border-amber-700 transition duration-300 inline-block text-center transform hover:scale-105 cursor-pointer">
+        Reserva tu lugar ahora
+    </button>
+</div>
+</section>
+<section class="bg-amber-50/50 backdrop-blur-sm rounded-xl shadow-md max-w-6xl mx-auto my-5 md:my-10 grid grid-cols-1 md:grid-cols-2 gap-10 overflow-hidden items-center" data-aos="fade-in" data-aos-duration="1000">
+    <div>
+        <img src="assets/images/hombre-preocupado.webp" alt="Hombre preocupado por su pensión">
+    </div>
+    <div class="p-5 md:p-10 space-y-5">
+        <h3 class="text-2xl md:text-4xl font-bold text-center">¿Piensas en ?</h3>
+        <div>
+            <ol class="list-disc list-outside marker:text-amber-500 marker:text-xl marker:font-bold space-y-3 ml-3">
+                                    <li class="text-gray-500 text-lg">Tengo 51 pero tengo más de 20 años sin cotizar q puedo hacer para pensionarme.</li>
+                                    <li class="text-gray-500 text-lg">Tengo 58 años de edad, 1600 semanas cotizadas, aún no estoy cotizando soy de ley 73 si me voy así a los 60 años cuanto me darían de pensión</li>
+                                    <li class="text-gray-500 text-lg">Yo las tuviera pero no sé porque no tengo las cotizaciones de Dica y Urrea si trabaje en esas fabricas.</li>
+                                    <li class="text-gray-500 text-lg">El día 19 de agosto fue mi último pago en modalidad 10 cuando me puedo presentar al IMSS para entregar mis papeles sobre mi jubilación.</li>
+                                    <li class="text-gray-500 text-lg">¿Qué cantidad puede incrementar de pensión, si pago modalidad 40 durante cuatro años?</li>
+                            </ol>
+        </div>
+        <div class="py-3 flex items-center justify-center">
+    <button 
+        @click="openModal = true"
+        class="bg-gray-800 hover:bg-amber-800 text-white py-3 px-6 rounded-full font-semibold border-2 border-gray-500 hover:border-amber-700 transition duration-300 inline-block text-center transform hover:scale-105 cursor-pointer">
+        Reserva tu lugar ahora
+    </button>
+</div>
+    </div>
+</section><footer class="bg-amber-400/50 backdrop-blur-sm rounded-xl p-5 md:p-10 shadow-md max-w-6xl mx-auto">
+    <div class="mx-auto md:flex justify-between space-y-5 md:space-y-0">
+        <div class="md:w-1/3">
+            <img class="w-56 mx-auto md:mx-0" src="/assets/images/logo-mq2.avif" alt="MQ Patrimonial">
+        </div>
+        <div class="md:w-1/3 space-y-3">
+            <h4 class="text-xl font-bold text-gray-800">Redes sociales</h4>
+            <ul>
+                <a class="text-gray-700 hover:text-amber-700" href="https://www.facebook.com/consultoriayasesoriaintegraleinmobiliaria">
+                    <li class="text-2xl flex items-center my-2"><i class="lni lni-facebook"></i><span class="text-base ml-2">MQPatrimonial</span></li>
+                </a>
+                <a class="text-gray-700 hover:text-amber-700" href="https://www.instagram.com/mqpatrimonial/">
+                    <li class="text-2xl flex items-center my-2"><i class="lni lni-instagram"></i><span class="text-base ml-2">@mqatrimonial</span></li>
+                </a>
+            </ul>
+        </div>
+        <div class="md:w-1/3 space-y-3">
+            <h4 class="text-xl font-bold text-gray-800">Contacto</h4>
+            <ul>
+                <a class="text-gray-700 hover:text-amber-700" href="https://api.whatsapp.com/send?phone=523351224866&text=Quisiera%20saber%20m%C3%A1s%20sobre%20la%20clase%20gratuita">
+                    <li class="text-2xl flex items-center my-2"><i class="lni lni-whatsapp"></i><span class="text-base ml-2">Whatsapp</span></li>
+                </a>
+                <a class="text-gray-700 hover:text-amber-700" href="mailto:mqpatrimonialimss@gmail.com">
+                    <li class="text-2xl flex items-center my-2"><i class="lni lni-envelope-1"></i><span class="text-base ml-2">mqpatrimonialimss@gmail.com</span></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="mt-5 md:mt-10 text-center text-amber-900 text-sm">Todos los derechos reservados <strong>MQPatrimonial </strong>© 2025</div></div>
+</footer><div x-data="scrollTop()" x-init="init()" class="relative">
+    <button 
+        x-show="visible"
+        @click="scrollToTop()"
+        class="fixed bottom-5 right-5 bg-gray-800 hover:bg-amber-700 text-white p-3 rounded-lg shadow-lg transition duration-300 cursor-pointer z-50"
+        x-transition
+        aria-label="Subir al inicio"
+        >
+        ↑
+    </button>
+</div><!-- Banner -->
+<div 
+    x-data="scrollBanner()" 
+    x-init="init()" 
+    x-show="visible" 
+    x-transition.opacity.duration.700
+    x-cloak
+    class="fixed top-0 left-0 w-full bg-amber-800/50 backdrop-blur-md text-white p-4 flex justify-center items-center shadow-lg z-50 gap-1 text-xs md:text-base"
+>
+    <div>Faltan </div>
+    <div class="my-inline-countdown font-bold"></div>
+    <div class="hidden md:block">para la clase gratuita en línea</div>
+
+</div><div 
+    x-show="openModal" 
+    x-cloak
+    class="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm"
+    x-transition.opacity
+    @click.self="openModal = false"
+    @keydown.escape.window="openModal = false"
+>
+    <div 
+        class="bg-white rounded-lg shadow-xl max-w-xl w-full p-6 relative space-y-5"
+        x-transition.scale
+    >
+        <div class="text-center">
+            <h5 class="text-2xl md:text-3xl font-bold">Clase Gratuita en Linea</h5>
+            <sub>Miércoles 01 de Octubre | 7:00 pm (CDMX)</sub>
+            <div class="uppercase mt-2">Registra aquí tus datos para obtener el acceso</div>
+        </div>
+        <div id="mc_embed_shell" class="w-full max-w-lg mx-auto">
+            <div id="mc_embed_signup" class="">
+                <form 
+                action="https://mqpatrimonial.us20.list-manage.com/subscribe/post?u=37dd53ccb64559aac075bd3a9&amp;id=473179b51e&amp;f_id=00cf3be0f0" 
+                method="post" 
+                id="mc-embedded-subscribe-form" 
+                name="mc-embedded-subscribe-form" 
+                class="validate space-y-5"
+                target="_self" 
+                novalidate
+                >
+                <div id="mc_embed_signup_scroll">
+                    
+                    <!-- Email -->
+                    <div class="mc-field-group">
+                    <label for="mce-EMAIL" class="block text-sm font-medium text-gray-700 mb-1">
+                        Correo Electrónico <span class="text-red-500">*</span>
+                    </label>
+                    <input 
+                        type="email" 
+                        name="EMAIL" 
+                        id="mce-EMAIL" 
+                        required 
+                        class="w-full rounded-lg border-gray-300 shadow-sm focus:ring-amber-500 focus:border-amber-500 text-gray-800 px-3 py-2 border"
+                    >
+                    </div>
+
+                    <!-- Nombre -->
+                    <div class="mc-field-group">
+                    <label for="mce-FNAME" class="block text-sm font-medium text-gray-700 mb-1">
+                        Nombre
+                    </label>
+                    <input 
+                        type="text" 
+                        name="FNAME" 
+                        id="mce-FNAME" 
+                        class="w-full rounded-lg border-gray-300 shadow-sm focus:ring-amber-500 focus:border-amber-500 text-gray-800 px-3 py-2 border"
+                    >
+                    </div>
+
+                    <!-- Teléfono -->
+                    <div class="mc-field-group">
+                    <label for="mce-PHONE" class="block text-sm font-medium text-gray-700 mb-1">
+                        Teléfono
+                    </label>
+                    <input 
+                        type="text" 
+                        name="PHONE" 
+                        id="mce-PHONE" 
+                        class="w-full rounded-lg border-gray-300 shadow-sm focus:ring-amber-500 focus:border-amber-500 text-gray-800 px-3 py-2 border"
+                    >
+                    </div>
+
+                    <!-- Respuestas -->
+                    <div id="mce-responses" class="hidden">
+                    <div class="response text-red-600 text-sm" id="mce-error-response"></div>
+                    <div class="response text-green-600 text-sm" id="mce-success-response"></div>
+                    </div>
+
+                    <!-- Anti-spam -->
+                    <div aria-hidden="true" class="hidden">
+                    <input 
+                        type="text" 
+                        name="b_37dd53ccb64559aac075bd3a9_473179b51e" 
+                        tabindex="-1" 
+                        value=""
+                    >
+                    </div>
+
+                    <!-- Botón -->
+                    <div class="pt-3">
+                    <input 
+                        type="submit" 
+                        name="subscribe" 
+                        id="mc-embedded-subscribe" 
+                        value="Suscribirme" 
+                        class="w-full bg-amber-400 hover:bg-amber-700 text-gray-800 hover:text-white font-semibold py-3 px-6 rounded-lg shadow-md transition transform hover:scale-[1.02] cursor-pointer border-0"
+                    >
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+
+        <p class="text-sm text-gray-600">Una vez completado el registro, te haremos llegar toda la información de la clase a tu correo electrónico y te enviaremos una invitación por medio de Whatsapp para unirte a mi grupo privado donde podrás enterarte de noticias y fechas de clases futuras.</p>
+        <button 
+            @click="openModal = false" 
+            class="absolute top-3 right-3 text-gray-600 hover:text-gray-900 text-2xl leading-none cursor-pointer"
+        >
+            &times;
+        </button>
+
+
+    </div>
+</div>
+<script>
+function scrollTop() {
+    return {
+        visible: false,
+        init() {
+            window.addEventListener('scroll', () => {
+                this.visible = window.scrollY > 200;
+            });
+        },
+        scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    }
+}
+</script>
+
+<script>
+function scrollBanner() {
+    return {
+        visible: false,
+        init() {
+            const section = document.getElementById('counter');
+
+            if (!section) {
+                // Revisar si la sección se renderiza más tarde
+                const interval = setInterval(() => {
+                    const sec = document.getElementById('counter');
+                    if (sec) {
+                        clearInterval(interval);
+                        this.addScrollListener(sec);
+                    }
+                }, 200);
+            } else {
+                this.addScrollListener(section);
+            }
+        },
+        addScrollListener(section) {
+            const checkVisibility = () => {
+                const rect = section.getBoundingClientRect();
+                // Mostrar banner solo después de que scrolleaste 150px dentro de la sección
+                this.visible = rect.top < window.innerHeight - 750;
+            };
+
+            checkVisibility();
+            window.addEventListener('scroll', checkVisibility);
+            window.addEventListener('resize', checkVisibility);
+        }
+    }
+}
+</script>
+<script>
+    const video = document.getElementById('heroVideo');
+    const btn = document.getElementById('unmuteBtn');
+
+    function toggleSound() {
+        if(video.muted) {
+            video.muted = false;
+            btn.textContent = '🔇 Silenciar';
+        } else {
+            video.muted = true;
+            btn.textContent = '🔊 Activar sonido';
+        }
+    }
+</script>
+    </body>
+</html>
