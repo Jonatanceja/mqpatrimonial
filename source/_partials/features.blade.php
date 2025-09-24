@@ -5,7 +5,7 @@
     <div class="p-5 md:p-10 space-y-5">
         <h3 class="text-2xl md:text-4xl font-bold text-center">¿Piensas en ?</h3>
         <div>
-            <ol class="list-disc list-outside marker:text-amber-500 marker:text-xl marker:font-bold space-y-3 ml-3">
+            <ol class="list-disc list-inside md:list-outside marker:text-amber-500 marker:text-xl marker:font-bold space-y-3 ml-3">
                 @foreach ($page->features as $feature)
                     <li class="text-gray-500 text-lg">{{ $feature->title }}</li>
                 @endforeach
