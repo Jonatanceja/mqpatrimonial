@@ -6,10 +6,10 @@
         <div class="md:w-1/3 space-y-3">
             <h4 class="text-xl font-bold text-gray-800">Redes sociales</h4>
             <ul>
-                <a class="text-gray-700 hover:text-amber-700" href="https://www.facebook.com/consultoriayasesoriaintegraleinmobiliaria">
+                <a class="text-gray-700 hover:text-amber-700" href="https://www.facebook.com/consultoriayasesoriaintegraleinmobiliaria" target="_blank">
                     <li class="text-2xl flex items-center my-2"><i class="lni lni-facebook"></i><span class="text-base ml-2">MQPatrimonial</span></li>
                 </a>
-                <a class="text-gray-700 hover:text-amber-700" href="https://www.instagram.com/mqpatrimonial/">
+                <a class="text-gray-700 hover:text-amber-700" href="https://www.instagram.com/mqpatrimonial/" target="_blank">
                     <li class="text-2xl flex items-center my-2"><i class="lni lni-instagram"></i><span class="text-base ml-2">@mqatrimonial</span></li>
                 </a>
             </ul>
@@ -17,10 +17,10 @@
         <div class="md:w-1/3 space-y-3">
             <h4 class="text-xl font-bold text-gray-800">Contacto</h4>
             <ul>
-                <a class="text-gray-700 hover:text-amber-700" href="https://api.whatsapp.com/send?phone=523351224866&text=Quisiera%20saber%20m%C3%A1s%20sobre%20la%20clase%20gratuita">
+                <a class="text-gray-700 hover:text-amber-700" href="https://api.whatsapp.com/send?phone=523351224866&text=Quisiera%20saber%20m%C3%A1s%20sobre%20la%20clase%20gratuita" target="_blank">
                     <li class="text-2xl flex items-center my-2"><i class="lni lni-whatsapp"></i><span class="text-base ml-2">Whatsapp</span></li>
                 </a>
-                <a class="text-gray-700 hover:text-amber-700" href="mailto:mqpatrimonialimss@gmail.com">
+                <a class="text-gray-700 hover:text-amber-700" href="mailto:mqpatrimonialimss@gmail.com" target="_blank">
                     <li class="text-2xl flex items-center my-2"><i class="lni lni-envelope-1"></i><span class="text-base ml-2">mqpatrimonialimss@gmail.com</span></li>
                 </a>
             </ul>

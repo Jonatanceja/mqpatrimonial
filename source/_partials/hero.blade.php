@@ -2,14 +2,14 @@
     <div class="md:col-span-2 bg-amber-50/60 p-5 md:p-10 backdrop-blur-sm">
         <div class="text-xl font-bold md:leading-relaxed">Clase Gratuita en línea</div>
         <div class="text-xs md:text-sm leading-relaxed text-gray-600 tracking-wider">
-            Miércoles <strong class="text-gray-800">01 de Octubre | 7:00 pm</strong> (CDMX)
+            Miércoles <strong class="text-gray-800">08 de Octubre | 7:00 pm</strong> (CDMX)
         </div>
         <h1 class="leading-relaxed text-2xl md:text-4xl mx-auto font-extrabold mb-3">Estrategias inteligentes para tu pensión</h1>
         <div class="relative mt-5">
             <video 
                 id="heroVideo" 
                 class="rounded w-full" 
-                src="/assets/images/video-mq.mp4" 
+                src="/assets/images/video-sub-logos.mp4" 
                 poster="/assets/images/portada-video.jpg"
                 autoplay 
                 loop 
@@ -37,7 +37,7 @@
             </div>
             <p class=" text-gray-700 tracking-wider text-base/6">
                 Fundadora de <strong>MQPatrimonial</strong> y creadora del podcast Blindaje Patrimonial.
-                Mi labor se centra en guiar a las personas en el cálculo y trámite de su pensión, aprovechando al máximo herramientas como la <strong>Modalidad 10 y Modalidad 40</strong>, la correcta gestión del Afore y las estrategias de retiro, con el objetivo de garantizar su tranquilidad financiera.
+                Mi labor se centra en guiar a las personas en el cálculo y trámite de su pensión, aprovechando al máximo herramientas como la <strong>Modalidad 10 y Modalidad 40</strong>, la correcta gestión del AFORE y las estrategias de retiro, con el objetivo de garantizar su tranquilidad financiera.
                 Mi propósito es acompañarte para que tome decisiones estratégicas en el momento más importante: <strong>tu retiro</strong>.
             </p>
         </div>

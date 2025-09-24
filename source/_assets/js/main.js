@@ -6,7 +6,7 @@ simplyCountdown(".my-super-countdown", {
     // Target date (Required)
     year: 2025, // Target year [YYYY]
     month: 10, // Target month [1-12]
-    day: 1, // Target day [1-31]
+    day: 8, // Target day [1-31]
     hours: 0, // Target hours [0-23]
     minutes: 0, // Target minutes [0-59]
     seconds: 0, // Target seconds [0-59]
@@ -64,7 +64,7 @@ simplyCountdown(".my-super-countdown", {
 simplyCountdown(".my-inline-countdown", {
     year: 2025,
     month: 10,
-    day: 1,
+    day: 8,
     hours: 0,
     minutes: 0,
     seconds: 0,
