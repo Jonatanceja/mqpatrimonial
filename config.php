@@ -2,7 +2,7 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'https://mqpatrimonial.netlify.app/',
+    'baseUrl' => 'https://mqpatrimonial.mx/',
     'title' => 'MQ Patrimonial IMSS',
     'description' => 'Clase Gratuita en línea.',
     'collections' => [],

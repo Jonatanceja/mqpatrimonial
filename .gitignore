@@ -11,3 +11,6 @@ hot
 # /build_staging/
 # /build_production/
 # /source/assets/build/
+
+# Local Netlify folder
+.netlify
