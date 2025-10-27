@@ -63,8 +63,8 @@ simplyCountdown(".my-super-countdown", {
 // Countdown inline
 simplyCountdown(".my-inline-countdown", {
     year: 2025,
-    month: 10,
-    day: 8,
+    month: 11,
+    day: 5,
     hours: 0,
     minutes: 0,
     seconds: 0,
