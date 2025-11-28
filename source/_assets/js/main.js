@@ -5,8 +5,8 @@ import simplyCountdown from "simplycountdown.js";
 simplyCountdown(".my-super-countdown", {
     // Target date (Required)
     year: 2025, // Target year [YYYY]
-    month: 11, // Target month [1-12]
-    day: 5, // Target day [1-31]
+    month: 12, // Target month [1-12]
+    day: 9, // Target day [1-31]
     hours: 0, // Target hours [0-23]
     minutes: 0, // Target minutes [0-59]
     seconds: 0, // Target seconds [0-59]
@@ -63,8 +63,8 @@ simplyCountdown(".my-super-countdown", {
 // Countdown inline
 simplyCountdown(".my-inline-countdown", {
     year: 2025,
-    month: 11,
-    day: 5,
+    month: 12,
+    day: 9,
     hours: 0,
     minutes: 0,
     seconds: 0,
