@@ -2,7 +2,7 @@
     <div class="md:col-span-2 bg-amber-50/60 p-5 md:p-10 backdrop-blur-sm">
         <div class="text-xl font-bold md:leading-relaxed">Clase Gratuita en línea</div>
         <div class="text-xs md:text-sm leading-relaxed text-gray-600 tracking-wider">
-            Domingo <strong class="text-gray-800">05 de Noviembre| 7:00 pm</strong> (CDMX)
+            Domingo <strong class="text-gray-800">09 de Diciembre | 7:00 pm</strong> (CDMX)
         </div>
         <h1 class="leading-relaxed text-2xl md:text-4xl mx-auto font-extrabold mb-3">Estrategias inteligentes para tu pensión</h1>
         <div class="relative mt-5">
